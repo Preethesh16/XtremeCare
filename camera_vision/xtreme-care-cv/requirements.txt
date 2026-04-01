@@ -1,0 +1,24 @@
+# XtremeCare CV pipeline — Python 3.14 compatible requirements
+# Install: pip install -r requirements.txt
+
+# Core CV / ML
+ultralytics>=8.3.0
+opencv-python>=4.10.0
+mediapipe>=0.10.18
+
+# Numerics
+numpy>=2.1.0
+
+# Image processing
+Pillow>=11.0.0
+
+# Networking
+requests>=2.32.3
+
+# Config / serialisation
+PyYAML>=6.0.2
+
+# Data processing — polars-lts-cpu avoids SSE3 flag crash on ARM (Snapdragon X)
+polars-lts-cpu>=1.33.0
+
+# sqlite3 is stdlib — no install needed

@@ -1,0 +1,6 @@
+names:
+- patient_001
+nc: 1
+path: C:\Deepthi_Files\clg\major project\project\XtremeCare\camera_vision\xtreme-care-cv\data\patients\patient_001\processed
+train: images/train
+val: images/val
