@@ -1,0 +1,3 @@
+- schema.sql → database structure
+- policies.sql → access rules
+- API → integration layer
